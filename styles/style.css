@@ -1,0 +1,43 @@
+.toolbar{
+  float: left;
+  border: solid black 2px;
+  height: 1000px;
+  padding-bottom: 50%;
+  margin-bottom: -100%;
+}
+.map{
+  height:2000px;
+  float: none !important;
+  border: solid black 2px;
+
+}
+.row.keylist{
+    padding-top: 15px;
+    float:left;
+    list-style: none;
+}
+.invisible{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+.left{
+    float:left;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.toolbar-title{
+    font-style:italic;
+    font-size:20px;
+    text-decoration: underline;
+}
+.body{
+    background-color: blue;
+}
+.keys-invisible{
+    visibility: hidden!important;
+}
+.keys-visible{
+    visibility: visible !important;
+}
