@@ -65,11 +65,11 @@ if($user->getLoggedInState()){
     //load the appropriate controller for student or lecturer
     //
     switch($user->getUserTypeID()){
-        case "ADMIN":  //create new  LECTURER controller
+        case "ADMIN":  //create new  ADMIN controller
             $controller=new AdminController($user,$db);
         break;
     
-        case "GENERAL":  //create new STUDENT controller
+        case "GENERAL":  //create new USER controller
             $controller=new UserController($user,$db);
         break;
     
